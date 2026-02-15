@@ -11,27 +11,39 @@ Todo se ha realizado paso a paso, guiándome con prototipos hechos en Figma y ap
 
 Módulos que he realizado:
 
+
 Inspecciones SST
 
 Vista de inspecciones registradas
+
 Buscador
+
 Tarjetas con información
+
 Diseño visual según prototipo
+
 
 
 Incidentes / Accidentes
 
 Listado de incidentes laborales
+
 Buscador
+
 Imagen representativa del módulo
+
 
 
 Capacitaciones
 
 Listado de capacitaciones
+
 Buscador
+
 Información de fecha, hora y responsable
+
 Diseño basado en Figma
+
 
 
 Navegación
@@ -39,10 +51,13 @@ Navegación
 Desde el menú principal se puede ingresar a:
 
 Inspecciones
+
 Incidentes / Accidentes
+
 Capacitaciones
 
 Cada botón abre su respectiva pantalla.
+
 
 
 Botón Salir
@@ -50,23 +65,33 @@ Botón Salir
 Se configuró el botón Salir para:
 
 Cerrar la aplicación
+
 Regresar a la pantalla principal del celular
+
 
 
 Herramientas usadas
 
 Android Studio
+
 Java
+
 XML
+
 GitHub
+
 Figma
+
 
 
 Estado del proyecto
 
 Interfaces diseñadas
+
 Navegación entre módulos
+
 Botón salir funcional
+
 Proyecto subido a GitHub
 
 
