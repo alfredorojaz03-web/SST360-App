@@ -42,7 +42,7 @@ Capacitaciones
 
 Listado de capacitaciones,
 buscador,
-información de fecha, hora y responsable y esto se hizo a través del
+información de fecha, hora y responsable. Esto se hizo a través del
 diseño basado en Figma
 
 
