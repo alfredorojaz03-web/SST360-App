@@ -1,145 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rootLayout"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/tvBienvenida"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="Bienvenido Alfredo Alfonso a:"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+    android:background="#1976D2"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:padding="8dp">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imgLogo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginBottom="8dp"
-            android:contentDescription="Logo SST360"
-            android:src="@android:drawable/sym_def_app_icon" />
+        <!-- ===== FRANJA BLANCA SUPERIOR ===== -->
 
-        <TextView
-            android:id="@+id/tvLogoTexto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SST360"
-            android:textColor="#003366"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+        <!-- ===== CONTENIDO AZUL ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="#FFFFFF"
+            android:gravity="end|center_vertical"
+            android:paddingEnd="16dp">
 
-        <TextView
-            android:id="@+id/tvTagline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="Tu aliado integral en seguridad laboral"
-            android:textColor="#555555"
-            android:textSize="14sp" />
-    </LinearLayout>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/campana_not" />
 
-    <TextView
-        android:id="@+id/tvInstruccion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:paddingBottom="8dp"
-        android:text="Seleccione la opción correspondiente:"
-        android:textColor="#222222"
-        android:textSize="16sp"
-        android:textStyle="italic" />
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_sort_by_size" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:padding="24dp"
+            android:elevation="4dp">
 
-            <Button
-                android:id="@+id/btnUsuariosRoles"
+            <!-- BIENVENIDA -->
+            <TextView
+                android:text="Bienvenido a:"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- ====== ENCABEZADO HORIZONTAL ====== -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="6dp"
-                android:backgroundTint="#1565C0"
-                android:text="Usuarios / Roles"
-                android:textColor="#FFFFFF" />
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp">
 
-            <Button
+                <!-- LOGO -->
+
+                <!-- ESPACIO ENTRE LOGO Y TEXTO -->
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/logo_modif"
+                    android:background="@drawable/logo_redondo"
+                    android:padding="14dp"
+                    android:layout_marginEnd="1dp"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <!-- TEXTOS (TITULO + SUBTITULO) -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <!-- TITULO -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SST 360"
+                        android:textColor="#FFFFFF"
+                        android:textSize="48sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="2dp"/>
+
+                    <!-- SUBTITULO -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tu aliado integral en seguridad laboral"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="-10dp"
+                        android:layout_marginStart="2dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- TEXTO OPCIONES -->
+            <TextView
+                android:text="Selecciona la opción correspondiente:"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"/>
+
+            <!-- ===== BOTON INSPECCIONES ===== -->
+            <LinearLayout
                 android:id="@+id/btnInspecciones"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="6dp"
-                android:backgroundTint="#1565C0"
-                android:text="Inspecciones SST"
-                android:textColor="#FFFFFF" />
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/btn_redondeado"
+                android:layout_marginTop="12dp"
+                android:paddingStart="28dp">
 
-            <Button
-                android:id="@+id/btnReportes"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="6dp"
-                android:backgroundTint="#1565C0"
-                android:text="Reportes de Accidentes"
-                android:textColor="#FFFFFF" />
+                <!-- ICONO -->
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/bt_inspec"
+                    android:layout_marginEnd="32dp"/>
 
-            <Button
+                <!-- TEXTO -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inspecciones SST"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- ===== BOTON INCIDENTES ===== -->
+            <LinearLayout
+                android:id="@+id/btnIncidentes"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/btn_redondeado"
+                android:layout_marginTop="12dp"
+                android:paddingStart="22dp"
+                android:paddingEnd="22dp">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/bt_incide"
+                    android:layout_marginEnd="22dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Incidentes / Accidentes"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!-- ===== BOTON CAPACITACIONES ===== -->
+            <LinearLayout
                 android:id="@+id/btnCapacitaciones"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="6dp"
-                android:backgroundTint="#1565C0"
-                android:text="Capacitaciones"
-                android:textColor="#FFFFFF" />
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/btn_redondeado"
+                android:layout_marginTop="12dp"
+                android:paddingStart="22dp"
+                android:paddingEnd="22dp">
 
-            <Button
-                android:id="@+id/btnDocumentos"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="6dp"
-                android:backgroundTint="#1565C0"
-                android:text="Documentos Normativos"
-                android:textColor="#FFFFFF" />
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/bt_capacit"
+                    android:layout_marginEnd="40dp"/>
 
-            <Button
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capacitaciones"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!-- ===== BOTON SALIR ===== -->
+            <LinearLayout
                 android:id="@+id/btnSalir"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/btn_redondeado"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salir"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!-- ESPACIO PARA BAJAR FOOTER -->
+
+            <!-- ===== FOOTER ===== -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"/>
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="6dp"
-                android:backgroundTint="#B71C1C"
-                android:text="Salir"
-                android:textColor="#FFFFFF" />
+                android:text="© 2026 SST360 - Seguridad y Salud en el Trabajo"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:gravity="center"/>
         </LinearLayout>
-    </ScrollView>
 
-    <TextView
-        android:id="@+id/tvFooter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="© 2025 SST360 - Seguridad y Salud en el Trabajo"
-        android:textColor="#777777"
-        android:textSize="12sp" />
+        <!-- ===== BARRA BLANCA INFERIOR ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="-20dp"/>
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

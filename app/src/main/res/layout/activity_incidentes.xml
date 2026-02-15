@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Inspecciones SST"
+                android:text="Incidentes / Accidentes"
                 android:textColor="#FFFFFF"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -43,13 +43,15 @@
         </LinearLayout>
 
         <!-- IMAGEN -->
+
+        <!-- BUSCADOR -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="180dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/logo_inspecciones"/>
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_incidente" />
 
-        <!-- BUSCADOR -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:background="@android:color/transparent"
-                android:hint="Buscar inspección por fecha, nombre, etc."
+                android:hint="Buscar incidente / Accidente por fecha, nombre, etc."
                 android:textSize="13sp"
                 android:textColor="#000000"/>
 
@@ -90,7 +92,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="Inspección General SST"
+                android:text="Accidente laboral"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#0D47A1"
@@ -98,7 +100,7 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="Cód: INPS-001    Área producción"
+                android:text="Cód: ACCI-001    Área producción"
                 android:textSize="13sp"
                 android:textColor="#555555"
                 android:layout_width="wrap_content"
@@ -116,7 +118,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="Inspección Maquinaria"
+                android:text="Incidente de trabajo"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#0D47A1"
@@ -124,7 +126,7 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="Cód: INPS-002    Área producción"
+                android:text="Cód: INCI-001    Área administrativa"
                 android:textSize="13sp"
                 android:textColor="#555555"
                 android:layout_width="wrap_content"
