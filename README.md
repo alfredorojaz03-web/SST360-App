@@ -19,39 +19,30 @@ Todo se ha realizado paso a paso, guiándome con prototipos hechos en Figma y ap
 Módulos que he realizado:
 
 
-Inspecciones SST
-
-Vista de inspecciones registradas
-
-Buscador
-
-Tarjetas con información
-
-Diseño visual según prototipo
+Inspecciones SST,
+Vista de inspecciones registradas,
+buscador,
+tarjetas con información y
+diseño visual según prototipo
 
 
 
 
 Incidentes / Accidentes
 
-Listado de incidentes laborales
-
-Buscador
-
-Imagen representativa del módulo
+Listado de incidentes laborales,
+buscador e
+imagen representativa del módulo
 
 
 
 
 Capacitaciones
 
-Listado de capacitaciones
-
-Buscador
-
-Información de fecha, hora y responsable
-
-Diseño basado en Figma
+Listado de capacitaciones,
+buscador,
+información de fecha, hora y responsable y esto se hizo a través del
+diseño basado en Figma
 
 
 
@@ -60,12 +51,9 @@ Navegación
 
 Desde el menú principal se puede ingresar a:
 
-Inspecciones
-
-Incidentes / Accidentes
-
-Capacitaciones
-
+Inspecciones,
+Incidentes / Accidentes y
+Capacitaciones.
 Cada botón abre su respectiva pantalla.
 
 
@@ -74,42 +62,34 @@ Botón Salir
 
 Se configuró el botón Salir para:
 
-Cerrar la aplicación
-
-Regresar a la pantalla principal del celular
+Cerrar la aplicación y
+regresar a la pantalla principal del celular
 
 
 
 Herramientas usadas
 
-Android Studio
-
-Java
-
-XML
-
-GitHub
-
+Android Studio,
+Java,
+XML,
+GitHub y
 Figma
 
 
 
 Estado del proyecto
 
-Interfaces diseñadas
-
-Navegación entre módulos
-
-Botón salir funcional
-
+Interfaces diseñadas,
+navegación entre módulos
+botón salir funcional y el
 Proyecto subido a GitHub
 
 
 
 Lo que he aprendido
 
-Crear pantallas (Activities)
-Diseñar vistas en XML
-Conectar botones con código Java
-Navegar entre pantallas
+Crear pantallas (Activities),
+diseñar vistas en XML,
+conectar botones con código Java,
+navegar entre pantallas y
 Subir proyectos a GitHub
