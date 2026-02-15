@@ -31,6 +31,7 @@ Diseño visual según prototipo
 
 
 
+
 Incidentes / Accidentes
 
 Listado de incidentes laborales
@@ -38,6 +39,7 @@ Listado de incidentes laborales
 Buscador
 
 Imagen representativa del módulo
+
 
 
 
@@ -50,6 +52,7 @@ Buscador
 Información de fecha, hora y responsable
 
 Diseño basado en Figma
+
 
 
 
