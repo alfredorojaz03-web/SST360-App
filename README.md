@@ -19,7 +19,8 @@ Todo se ha realizado paso a paso, guiándome con prototipos hechos en Figma y ap
 Módulos que he realizado:
 
 
-Inspecciones SST,
+Inspecciones SST
+
 Vista de inspecciones registradas,
 buscador,
 tarjetas con información y
