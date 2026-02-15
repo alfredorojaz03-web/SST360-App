@@ -1,13 +1,20 @@
 Aplicación móvil SST360
 
 Por: Alfredo Arregocés Rojas
+
 Aprendiz SENA programa: Análisis y Desarrollo de Software
+
+
+
 
 Descripción
 
 Esta aplicación móvil llamada SST360 la estoy desarrollando como proyecto de aprendizaje en Android Studio.
 El objetivo es crear una app relacionada con Seguridad y Salud en el Trabajo, donde se puedan visualizar diferentes módulos como inspecciones, incidentes y capacitaciones.
 Todo se ha realizado paso a paso, guiándome con prototipos hechos en Figma y aplicando lo aprendido en las grabaciones de las secciones de formación.
+
+
+
 
 Módulos que he realizado:
 
