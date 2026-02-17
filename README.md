@@ -87,6 +87,18 @@ Proyecto subido a GitHub
 
 
 
+
+Generación del APK
+
+Como parte final del taller realicé la compilación del proyecto, generación del archivo APK, firma digital de la aplicación y empaquetado en versión instalable.
+
+
+
+Instalación
+
+Para instalar la aplicación se debe descargar el archivo app-release.apk, luego pasarlo al celular, instalarlo y ejecutar la aplicación SST360.
+
+
 Lo que he aprendido
 
 Crear pantallas (Activities),
@@ -94,3 +106,4 @@ diseñar vistas en XML,
 conectar botones con código Java,
 navegar entre pantallas y
 Subir proyectos a GitHub
+Generar y firmar el APK
